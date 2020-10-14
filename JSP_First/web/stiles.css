@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2020, 8:58:08 PM
+    Author     : Hrushikar
+*/
+
+/*p{
+    color: red;
+}*/
+input{
+    width: 70px;
+    border: 1px;
+}
+.forms input 
+{
+/*    position: absolute;
+    top: 120px;
+    z-index: 1;
+    border-radius: 8px;
+    background: rgb(255,255,255);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center;*/
+    color: aqua;
+    background-color: transparent;
+    text-align: left;
+    padding: 0px;
+    cursor: pointer;
+}
+.login-page {
+/*    font-family: "Roboto", sans-serif;
+    outline: 1px;
+    background: rgb(232,232,232);
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    margin: 0 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;*/
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    font-family: "Roboto", sans-serif;
+    z-index: 1;
+    /*background-color: white;*/
+    max-width: 360px;
+    margin: 0 auto 10px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 25px;
+}
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1px;
+    background: rgb(232,232,232);
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    margin: 0 0 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form p{
+    font-size: 18px;
+    margin: 0px;
+    color: white;
+}
+
+#loginButton{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #09f;
+    color: #fff;
+}
+
+.b1{
+/*    background-image:  url("shar.jpg");*/
+    background-repeat: no-repeat;
+    background: url("sharingan.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+span{
+    color: aqua;
+    margin: 0px;
+}
