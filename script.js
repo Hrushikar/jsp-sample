@@ -1,1 +1,3 @@
-alert(1);
+function fun(){
+  alert(1);
+}
