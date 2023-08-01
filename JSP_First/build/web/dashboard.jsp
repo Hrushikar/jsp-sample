@@ -27,14 +27,14 @@
         
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            //conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "Hrushi@1445");
+            //conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "<<redacted>>", "<<redacted>>");
         }
         catch(Exception e){
             System.out.println(e);
         }
         try{
             %><p><span><%out.println("Hello!!!");%></span></p><%
-            con = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "Hrushi@1445");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "<<redacted>>", "<<redacted>>");
             query = "SELECT * from users where Username=?";
             ps = con.prepareStatement(query);
             ps.setString(1,session.getAttribute("userName").toString());
@@ -65,14 +65,14 @@
                 String query;
                 try{
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    //conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "Hrushi@1445");
+                    //conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "<<redacted>>", "<<redacted>>");
 //                }
 //                catch(Exception e){
 //                    System.out.println(e);
 //                }
 //                try{
                     %><p><%out.println("Hello");%></p><%
-                    conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "Hrushi@1445");
+                    conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "<<redacted>>", "<<redacted>>");
                     query = "SELECT * FROM users where Username=? and Password=?";
                     ps = conn.prepareStatement(query);
                     ps.setString(1,username);
