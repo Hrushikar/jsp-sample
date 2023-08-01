@@ -19,7 +19,7 @@
         <h2>Details:</h2><br/><br/>
         <%
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "Hrushi@1445");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "<<redacted>>", "<<redacted>>");
             Statement stmt  = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM student");
             while(rs.next()){%>
