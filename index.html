@@ -1,18 +1,22 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Avalara Studio | Canvas</title>
-  </head>
-  <body>
-    <h1>Upload a passport size photo of you for KYC verification</h1>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-      <div class="container-fluid">
-        <div class="mb-3">
-          <label for="formFile" class="form-label">Select image to upload:</label>
-          <input class="form-control" type="file" name="fileToUpload" id="fileToUpload">
-        </div>
-        <br />
-        <input class="btn btn-primary" type="submit" value="Upload File" name="submit">
-      </div>      
-      </form>
-  </body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <%
+        int count = 1;
+        %>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+    <%
+        
+        //out.println("<br/>");
+        out.println("<br/>Count:<br/>");
+        for(int i=0;i<5;i++){
+            out.println(++count);
+        }
+        %>
 </html>
